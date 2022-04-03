@@ -1,0 +1,33 @@
+<?php
+
+namespace coding\Core\QueryBuliders;
+
+/**
+ * Class QueryBuilder
+ */
+class QueryBuilder
+{
+    function __construct()
+    {
+        echo "welcome";
+    }
+    public static function select(string ...$select): Select
+    {
+        return new Select($select);
+    }
+
+    public static function insert(string $into): Insert
+    {
+        return new Insert($into);
+    }
+
+    public static function update(string $table): Update
+    {
+        return new Update($table);
+    }
+
+    public static function delete(string $table): Delete
+    {
+        return new Delete($table);
+    }
+}

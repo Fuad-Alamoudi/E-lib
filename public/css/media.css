@@ -1,0 +1,195 @@
+
+@media (max-width:1030px)
+{
+    .container .colum nav li a span i
+    {
+        display: none;
+    }
+    .search-link
+    {
+        display: none;
+    }
+    .list ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    .list ul li a {
+        width: 200px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: row;
+    }
+    footer .container .one {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    footer .payments {
+        flex-direction: column;
+        text-align: right;
+    }
+    main .container .login .row .col form {
+        padding: 10px 10px;
+    }
+    .grid-cat {
+        display: grid;
+        grid-template-columns: 30% 65%;
+    }
+    main .container-content .cat-img .icons-image {
+        grid-template-columns: 40% 40%;
+         column-gap: 80px;
+    }
+    .chickout .ch-flex
+    {
+        flex-direction: column;
+    }
+    .chickout .ch-flex .col-right,
+    .chickout .ch-flex .col-left   {
+        width: 100%;
+    }
+    .chickout .ch-flex .col-left
+    {
+        height: 270px;
+    }
+}
+@media (max-width:930px)
+{
+    .head-top
+    {
+        display: none;
+    }
+    footer .container .one > div ul
+    {
+        display: none;
+    }
+    main .container .content .grid-details {
+        grid-template-columns: 48% 48%;
+        gap: 3%;
+    }
+   
+}
+@media (max-width:630px)
+{
+    :root
+    {
+        font-size: 9px;
+    }
+    .logo img {
+        width: 188px;
+        height: 58px;
+    }
+    .tow .colum .txt {
+        width: 200px;
+    }
+    footer .container .icons {
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    main .container .content .grid-details {
+        grid-template-columns: 100%;
+        gap: 3%;
+    }
+    /* strat login  */
+    main .container .login .row  .col
+    {
+        width: 100%;
+    }
+    .grid-cat {
+         grid-template-columns: 100%;
+    }
+    main .container-content .cat-img .icons-image {
+        grid-template-columns: 40% 40%;
+        gap: 50px 15%;
+        padding: 40px 0;
+    }
+    .cat-img .icons-image .prodc {
+        width: 150px;
+    }
+}
+    
+
+@media (max-width:415px)
+{
+    
+    .container {
+        margin: 0 25px;
+     }
+    .search,.basket i 
+    {
+        padding: 15px;
+    }
+    .logo img {
+        width: 100px;
+        height: 58px;
+    }
+    footer .container .one > div {
+        margin: 8px 0px;
+    }
+    
+    footer .container .one > div:not(:first-child)
+    {
+        width: 100%;
+    }
+    main .container-content .cat-img .icons-image {
+        grid-template-columns: 100%;
+        gap: 10px 0%;
+        padding: 10px 0;
+    }
+    .cat-img .icons-image .prodc {
+        width: 200px;
+        margin: 20px auto;
+    }
+    .chickout .pro .con-carts .price, .chickout .pro .con-carts .price .type-price {
+    font-size: 1.2rem;    }
+    .chickout .pro .note .num-order > div:first-child {
+        padding: 20px 10px;
+    }
+    .chickout .pro .note .num-order .btn button {
+    padding: 7px 10px;
+}
+.chickout .pro .con-carts {
+    margin: 5px;
+}
+.chickout .pro .note {
+    margin: 10px 10px;
+}
+}
+@media (max-width: 630px)
+{
+    .container {
+        margin: 0 25px;
+    }
+.tow .colum .txt {
+    width: 100%;
+}
+main .ads
+{
+    display: none;
+}
+}
+@media (max-width:280px)
+{
+    .container {
+        margin: 0 5px;
+    }
+    .logo img {
+    width: 122px;
+    height: 58px;
+}
+    footer form {
+        width: 200px
+    }
+}
